@@ -1,18 +1,19 @@
 extern func printf(fmt: *char,...) i32;
 
-
-
 var string: *char = "Hello,world!";
 
-
-func f() void {
+func f() i32 {
 	string = "Hi!";
+
+	return 0;
 }
 
-pub func main() void {
+pub func main() i32 {
 	printf("%s\n",string);
 
 	f();
 
 	printf("%s\n",string);
+
+	return 0;
 }
