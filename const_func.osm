@@ -1,6 +1,6 @@
+///
 /// run this example with --consteval or with -O3
-
-
+///
 import "std/libc.osm"
 
 constexpr func fac(x: i32) i32 {
