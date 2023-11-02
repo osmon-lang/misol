@@ -1,4 +1,4 @@
-import "std/libc.osmx"
+import "std/libc.osm"
 
 pub func print(f: f64) void {
     printf("%f\n",f);
