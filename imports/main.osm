@@ -1,0 +1,9 @@
+import "child.osm"
+
+extern func printf(fmt: *char,...) void;
+
+pub func main() i32 {
+	var f = fac(6);
+	printf("%i\n", f);
+  return fac(5);
+}
